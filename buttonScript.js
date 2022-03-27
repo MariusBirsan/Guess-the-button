@@ -3,7 +3,7 @@ function randomButton() {
 }
 let chosenButton = randomButton()
 function choise(val) {
-	var pickedButton = document.getElementById("getMessage")
+	let pickedButton = document.getElementById("getMessage")
 	if (val === chosenButton) {
 		pickedButton.innerHTML = 'That is the correct choise'
 		chosenButton = randomButton()
